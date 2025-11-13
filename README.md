@@ -5,21 +5,19 @@ Dashboard Serah Terima & Pengembalian Barang yang responsif dan interaktif, diba
 ## 📁 Struktur Folder
 
 ```
-php-version/
-├── index.php                          # File utama aplikasi
-├── assets/
-│   └── js/
-│       └── main.js                    # JavaScript untuk interaktivitas
-├── includes/
-│   ├── components/
-│   │   ├── add-item-modal.php        # Modal tambah data
-│   │   └── data-table.php            # Tabel data
-│   └── pages/
-│       ├── dashboard.php             # Halaman dashboard
-│       ├── handover.php              # Halaman serah terima
-│       ├── return.php                # Halaman pengembalian
-│       └── settings.php              # Halaman pengaturan
-└── README.md
+SERAH TERIMA
+├── admin/              → Halaman khusus untuk pengguna admin
+├── assets/             → File statis (CSS, JS)
+├── includes/           → Komponen reusable (modal, tabel, form)
+├── super_admin/        → Halaman khusus untuk super admin
+├── user/               → Halaman khusus untuk pengguna biasa
+├── config.php          → Konfigurasi umum
+├── index.php           → Landing page / login
+├── koneksi.php         → Koneksi database
+├── login.php           → Form login
+├── login_procces.php   → Proses autentikasi
+├── logout.php          → Proses logout
+└── README.md           → Dokumentasi
 ```
 
 ## 🚀 Fitur
